@@ -2,15 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   margin: 0;
   padding: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.main{
+.main {
   width: 100%;
   height: 100vh;
 }
@@ -28,21 +26,57 @@ video {
   height: 100%;
   top: 0;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
 }
 
-.overlay{
+.overlay {
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-color: rgba(0,0,0,.15);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-  @apply text-4xl sm:text-5xl md:text-6xl
+  @apply text-4xl sm:text-5xl md:text-6xl;
+}
+
+h2 {
+  @apply font-medium leading-tight md:text-2xl mt-20 mb-2 text-yellow-200;
+  height: 0vh;
+}
+
+.Architectural {
+  width: 50%;
+  height: 15vh;
+  color: black;
+  text-align: center;
+  padding-left: 64vh;
+  padding-top: 1vh;
+  padding-bottom: 1rem;
+  justify-content: center;
+}
+
+.contentBackground {
+  background-color: darkgray;
+  opacity: 80%;
+  height: 50rem;
+}
+
+.bubble {
+  border: solid 1px #ddd;
+  background: rgb(51, 51, 51);
+  margin-bottom: 0.25rem;
+  max-width: 60%;
+  align-self: flex-end;
+  padding: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.75rem;
+  position: relative;
+  color: #fff;
+  text-align: center;
 }
