@@ -2,23 +2,23 @@ import GT from "../assets/GT.png";
 
 function Footer() {
   return (
-    <div class="w-full max-h-30 flex items-center justify-center bg-amber-50">
-      <div class="md:w-2/3 w-full px-4 text-white flex flex-col">
-        <div class="flex mt-8 flex-col md:flex-row md:justify-between">
+    <div class="w-full max-h-15 flex items-center justify-center bg-amber-50">
+      <div class="md:w-2/3 w-full px-4 text-black flex flex-col">
+        <div class="flex mt-4 flex-col md:flex-row md:justify-between">
           <p class="font-sans w-full md:w-2/3 text-gray-400">
             For any questions about homes, services, community events, and more:
           </p>
           <div class="w-44 pt-6 md:pt-0 transition duration-150 hover:ease-in">
             <a
               href="/Contact"
-              class="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center"
+              class="bg-emerald-400 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center"
             >
               Contact US
             </a>
           </div>
         </div>
         <div class="flex flex-col max-h-30">
-          <div class="flex mt-24 mb-12 flex-row justify-between">
+          <div class="flex mt-20 mb-10 flex-row justify-between">
             <div class="">
               <a href="/" className="cursor-pointer">
                 <img src={GT} alt="/" width="125" height="75" />
@@ -26,22 +26,22 @@ function Footer() {
             </div>
             <a
               href="/About"
-              class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase"
+              class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase"
             >
               About
             </a>
             <a
               href="/Support"
-              class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase"
+              class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase"
             >
               Support
             </a>
-            <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">
+            <a class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase">
               Why us
             </a>
             <a
               href="/Contact"
-              class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase"
+              class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase"
             >
               Contact
             </a>

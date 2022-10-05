@@ -5,17 +5,18 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <div>
+    <div className='main'>
       <Navbar />
       <div>
         <img 
-          className='overlay mb-0' 
+          className=''
           src={Greenbelt} 
           alt="" 
         />
+        </div>
         <div className='content'>
-          <h1 className=''>Contact Us</h1>
-            <form className='opacity-80'
+          <h1 className='mt-20'>Contact Us</h1>
+            <form className='opacity-90 h-max' 
               action='https://getform.io/f/7f383f7b-4250-4a39-b280-728f486f7c7c'
               method='POST'
               enctype='multipart/form-data'
@@ -32,13 +33,13 @@ const Contact = () => {
                   <option value="Other">Other</option>
               </select>
               <textarea className='w-full p-2 text-black mt-4'  name='message' cols='30' rows='10' placeholder='Message' />
-              <button className='w-full p-4' type='submit'>Submit</button>
+              <button className='w-full p-4 text-white rounded-lg shadow px-20 py-3' type='submit'>Submit</button>
           </form>
-          <Footer />
-          </div>
-      </div>
-        
+        </div>
+      <Footer />
     </div>
+   
+  
   );
 };
 
