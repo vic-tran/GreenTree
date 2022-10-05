@@ -1,83 +1,43 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Greenbelt from "../assets/Greenbelt.png";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
       <div>
-        <section className="text-gray-700 body-font relative">
-          <div className="container px-3 py-14 mx-auto">
-            <div className="flex flex-col text-center w-full mb-12">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                Contact Us
-              </h1>
-              <p className="lg:w-1/3 mx-auto leading-relaxed text-base">
-                Leave your name, email, and a brief message explaining the issue
-                you are experiencing. Greentree will answer your questions!
-              </p>
-            </div>
-            <div className="lg:w-1/2 md:w-2/3 mx-auto">
-              <div className="flex flex-wrap -m-2">
-                <div className="p-2 w-1/2">
-                  <div className="relative">
-                    <label
-                      for="name"
-                      className="leading-7 text-sm text-gray-600"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    />
-                  </div>
-                </div>
-                <div className="p-2 w-1/2">
-                  <div className="relative">
-                    <label
-                      for="email"
-                      className="leading-7 text-sm text-gray-600"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    />
-                  </div>
-                </div>
-                <div className="p-2 w-full">
-                  <div className="relative">
-                    <label
-                      for="message"
-                      className="leading-7 text-sm text-gray-600"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                    ></textarea>
-                  </div>
-                </div>
-                <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                    Button
-                  </button>
-                </div>
-              </div>
-            </div>
+        <img 
+          className='overlay mb-0' 
+          src={Greenbelt} 
+          alt="" 
+        />
+        <div className='content'>
+          <h1 className=''>Contact Us</h1>
+            <form className='opacity-80'
+              action='https://getform.io/f/7f383f7b-4250-4a39-b280-728f486f7c7c'
+              method='POST'
+              enctype='multipart/form-data'
+            >
+              <input className='grid md:grid-cols-2 gap-4 w-full py-2 p-2 text-black mt-4' type='text' name='First Name' placeholder="First Name" />
+              <input className='grid md:grid-cols-2 gap-4 w-full py-2 p-2 text-black mt-4' type='text' name='Last Name' placeholder="Last Name" />
+              <input className='grid md:grid-cols-2 gap-4 w-full py-2 p-2 text-black mt-4' type='email' name='Email' placeholder="Email" />
+              <input className='grid md:grid-cols-2 gap-4 w-full py-2 p-2 text-black mt-4' type='text' name='Phone Number' placeholder="Phone Number" />
+              <select name="Issue" className='grid md:grid-cols-2 gap-4 w-full py-2 p-2 text-black mt-4' placeholder="Issues">
+                  <option value="Logging into Account">Logging into Account</option>
+                  <option value="Payment">Completing Payment</option>
+                  <option value="Content">Viewing Content</option>
+                  <option value="File Upload">Uploading Files</option>
+                  <option value="Other">Other</option>
+              </select>
+              <textarea className='w-full p-2 text-black mt-4'  name='message' cols='30' rows='10' placeholder='Message' />
+              <button className='w-full p-4' type='submit'>Submit</button>
+          </form>
+          <Footer />
           </div>
-        </section>
       </div>
-      <Footer />
+        
     </div>
   );
 };

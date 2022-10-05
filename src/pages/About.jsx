@@ -1,5 +1,5 @@
 import React from "react";
-import aboutBg from "../assets/About.mp4";
+import aboutBg from "../assets/about.mp4";
 import logo from "../assets/GT.png";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
