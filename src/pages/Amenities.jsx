@@ -9,13 +9,13 @@ const Amenities = () => {
   return (
     <div className="contentBackground">
       <Navbar />
-      <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16">
+      <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16 pt-5 pb-5">
         <h1>Amenities</h1>
       </div>
       <div class="pb-10 pl-5">
         <p class="font-sans">
           The areas within Greentree homes provide you with a variety of
-          activities. Enjoy a paddle in our wonderful swimming pool.Go for a
+          activities. Enjoy a paddle in our wonderful swimming pool. Go for a
           stroll through the greenbelt. Improve your basketball game on our
           court within the park. The options are endless!
         </p>
@@ -52,7 +52,7 @@ const Amenities = () => {
           the dwelling and overall architectural style of the immediate area.
         </p> */}
       </div>
-      <Footer />
+      
     </div>
   );
 };

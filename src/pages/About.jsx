@@ -7,9 +7,8 @@ import Navbar from "../components/Navbar";
 const About = () => {
   return (
     // <Navbar></Navbar>
-    <div className="main">
+    <div className="w-full h-screen">
       <Navbar />
-      <div className="overlay"></div>
       <video src={aboutBg} autoPlay loop muted />
       <div className="content">
         <div class="flex justify-right">
@@ -36,7 +35,7 @@ const About = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      
     </div>
     
   );
