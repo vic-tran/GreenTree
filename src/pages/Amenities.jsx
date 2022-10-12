@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import pool from "../assets/pool.png";
 import Greenbelt from "../assets/Greenbelt.png";
 import plan3 from "../assets/Plan31x.png";
+import rec from "../assets/rec.png";
 
 const Amenities = () => {
   return (
@@ -21,14 +22,14 @@ const Amenities = () => {
         </p>
       </div>
       <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-8 ">
-        <div className="saturate-150 pb-5 transform h-84  w-108 transition duration-500 hover:scale-125 flex justify-center items-center">
-          <img class=".object-cover h-108 w-96 ..." src={pool} alt="" />
+        <div className="saturate-150 pb-5 transform h-164  w-108 transition duration-500 hover:scale-125 flex justify-center items-center">
+          <img class=".object-cover h-80 w-96 ..." src={pool} alt="pool" />
         </div>
-        <div className="saturate-150 pb-5 transform h-164 bg-grey-400 w-108 transition duration-500 hover:scale-125 hover:bg-grey-800 flex justify-center items-center">
-          <img class=".object-cover h-108 w-96 ..." src={Greenbelt} alt="" />
+        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-125 hover:bg-grey-800 flex justify-center items-center">
+          <img class=".object-cover h-80 w-96 ..." src={Greenbelt} alt="greenbelt" />
         </div>
-        <div className="pt-12 transform h-64 w-108 transition duration-500 hover:scale-125 flex justify-center items-center">
-          <img class=".object-cover h-78 w-96 ..." src={plan3} alt="" />
+        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-125 hover:bg-grey-800 flex justify-center items-center">
+          <img class=".object-cover h-80 w-96 ..." src={rec} alt="recreation" />
         </div>
       </div>
       {/* <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16">

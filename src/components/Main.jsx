@@ -12,14 +12,14 @@ export const main = () => {
             <h1>Welcome to</h1>
             <h1>Greentree Homes</h1>
               <section class="flex justify-center mt-5">
-                <div class= "bg-gray-600 py-3 w-3/12 rounded text-center border-b-4 border-white flex justify-center opacity-70 ...">
+                <div class= "bg-gray-600 py-3 w-3/12 rounded text-center border-b-4 border-white flex justify-center opacity-80 ...">
                   <p class="font-sans text-md w-11/12">Irvine's hidden gem with 626 single family homes at the city's center. 
                     As one of the oldest neighborhoods in Irvine, this area has a rich history and has 
                     made significant contributions to the fabric of Irvine City.
                   </p>
+                </div>
+              </section>
             </div>
-          </section>
-          </div>
         </div>
       <Amenities />
     </div>
