@@ -7,6 +7,9 @@ import plan5 from "../assets/Plan51x.png";
 import plan6 from "../assets/Plan70x.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import pdf from "../assets/pdficon.png";
+import homeownericon from "../assets/HomeownerPortalIcon.png";
+import committee from "../assets/committeeicon.png";
 
 const Architectural = () => {
   return (
@@ -135,6 +138,30 @@ const Architectural = () => {
             Greentree, it is necessary that modifications of structures,
             materials and colors be compatible with the dwelling and overall
             architectural style of the immediate area.
+          </p>
+        </div>
+      </div>
+
+      <div className="container px-10 pb-10">
+        <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+          <div className="p-5">
+            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-10">
+              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+                <img class=".object-cover h-78 w-96 ..." src={plan1} alt="" />
+              </div>
+              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+                <img class=".object-cover h-78 w-96 ..." src={plan2} alt="" />
+              </div>
+              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+                <img class=".object-cover h-78 w-96 ..." src={plan3} alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="font-serif ">
+            Requests to make home amendments/improvements can be made by filling
+            out the form above and submitting through the Homeowner portal.
+            Physical applications can also be mailed to: 4540 Campus Dr. Suite
+            100 Newport Beach,CA 92660
           </p>
         </div>
       </div>
