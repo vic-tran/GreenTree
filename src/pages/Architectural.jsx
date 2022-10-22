@@ -134,12 +134,12 @@ const Architectural = () => {
                 <a href="https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf">
                   <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
                 </a>
-                <h2>Hellow</h2>
+                {/* <h2>Hellow</h2> */}
               </div>
-              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-75 hover:bg-blue-600 flex justify-center items-center">
+              <div className="transform h-64 w-80 transition duration-500 hover:scale-75 flex justify-center items-center">
                 <a href="https://coastalmngmtandconsulting.appfolio.com/connect/users/sign_in">
                   <img
-                    class=".object-cover h-78 w-96 ..."
+                    class="rounded-full .object-cover h-78 w-96 ..."
                     src={homeownericon}
                     alt=""
                   />
@@ -153,26 +153,23 @@ const Architectural = () => {
                 />
               </div>
             </div>
-            <div className="pt-20">
-              <span class="text-left text-base text-xl">
-                {" "}
-                Caring Enviroment
-              </span>
-              <span class="text-center text-base text-xl">
-                {" "}
-                Caring Enviroment
-              </span>
-              <span class="text-right text-base text-xl">
-                {" "}
-                Caring Enviroment
-              </span>
-            </div>
           </div>
           <p class="font-serif pt-5 text-xl">
             Requests to make home amendments/improvements can be made by filling
             out the form above and submitting through the Homeowner portal.
-            Click on the pdf and portal icons. Physical applications can also be
-            mailed to: 4540 Campus Dr. Suite 100 Newport Beach,CA 92660
+            Click on the{" "}
+            <span className="font-serif text-2xl font-extrabold text-red-500">
+              PDF
+            </span>{" "}
+            and{" "}
+            <span className="font-serif text-2xl font-extrabold text-cyan-600">
+              Homeowner Portal
+            </span>{" "}
+            icons to access the form and submission portal.
+          </p>
+          <p className="font-serif pt-5 text-xl">
+            Physical applications can also be mailed to: 4540 Campus Dr. Suite
+            100 Newport Beach,CA 92660
           </p>
         </div>
       </div>
