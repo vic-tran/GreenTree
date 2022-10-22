@@ -10,6 +10,14 @@ import Footer from "../components/Footer";
 import pdf from "../assets/pdficon.png";
 import homeownericon from "../assets/HomeownerPortalIcon.png";
 import committee from "../assets/committeeicon.png";
+import application from "../assets/HomeImprovementApplication.pdf";
+
+function handleClick() {
+  window.open(
+    "https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf",
+    "_blank"
+  );
+}
 
 const Architectural = () => {
   return (
@@ -144,19 +152,23 @@ const Architectural = () => {
 
       <div className="container px-10 pb-10">
         <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
-          <div className="p-20">
+          <div className="py-20 px-10">
             <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-20">
-              <div className="transform h-64 w-80 object-scale-down transition duration-500 hover:scale-50 flex justify-center items-center">
-                <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
+              <div className="transform h-64 w-80 object-scale-down transition duration-500 hover:scale-75 flex justify-center items-center">
+                <a href="https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf">
+                  <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
+                </a>
               </div>
-              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-50 hover:bg-blue-600 flex justify-center items-center">
-                <img
-                  class=".object-cover h-78 w-96 ..."
-                  src={homeownericon}
-                  alt=""
-                />
+              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-75 hover:bg-blue-600 flex justify-center items-center">
+                <a href="https://coastalmngmtandconsulting.appfolio.com/connect/users/sign_in">
+                  <img
+                    class=".object-cover h-78 w-96 ..."
+                    src={homeownericon}
+                    alt=""
+                  />
+                </a>
               </div>
-              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-50 hover:bg-blue-600 flex justify-center items-center">
+              <div className="transform h-64 bg-blue-400 w-80 flex justify-center items-center">
                 <img
                   class=".object-cover h-78 w-96 ..."
                   src={committee}
@@ -165,7 +177,7 @@ const Architectural = () => {
               </div>
             </div>
           </div>
-          <p class="font-serif ">
+          <p class="font-serif pt-10">
             Requests to make home amendments/improvements can be made by filling
             out the form above and submitting through the Homeowner portal.
             Click on the pdf and portal icons. Physical applications can also be
