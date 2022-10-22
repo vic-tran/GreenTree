@@ -144,24 +144,32 @@ const Architectural = () => {
 
       <div className="container px-10 pb-10">
         <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
-          <div className="p-5">
-            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-10">
-              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
-                <img class=".object-cover h-78 w-96 ..." src={plan1} alt="" />
+          <div className="p-20">
+            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-20">
+              <div className="transform h-64 w-80 object-scale-down transition duration-500 hover:scale-50 flex justify-center items-center">
+                <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
               </div>
-              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
-                <img class=".object-cover h-78 w-96 ..." src={plan2} alt="" />
+              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-50 hover:bg-blue-600 flex justify-center items-center">
+                <img
+                  class=".object-cover h-78 w-96 ..."
+                  src={homeownericon}
+                  alt=""
+                />
               </div>
-              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
-                <img class=".object-cover h-78 w-96 ..." src={plan3} alt="" />
+              <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-50 hover:bg-blue-600 flex justify-center items-center">
+                <img
+                  class=".object-cover h-78 w-96 ..."
+                  src={committee}
+                  alt=""
+                />
               </div>
             </div>
           </div>
           <p class="font-serif ">
             Requests to make home amendments/improvements can be made by filling
             out the form above and submitting through the Homeowner portal.
-            Physical applications can also be mailed to: 4540 Campus Dr. Suite
-            100 Newport Beach,CA 92660
+            Click on the pdf and portal icons. Physical applications can also be
+            mailed to: 4540 Campus Dr. Suite 100 Newport Beach,CA 92660
           </p>
         </div>
       </div>
