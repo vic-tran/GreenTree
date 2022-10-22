@@ -26,14 +26,13 @@ const Architectural = () => {
       <div className="pt-20 pb-5 flex justify-between items-center w-full px-2 2xl:px-16">
         <h1>Home Types</h1>
       </div>
-      <div class="pb-10 pl-20">
-        <p class="font-serif">
-          Choose between our six intricately designed homes for your family to
-          build a life together in:
-        </p>
-      </div>
+
       <div className="container pl-20">
         <div class="pb-10 pl-5 bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+          <h2 className="text-3xl pb-10">
+            Choose between our six intricately designed homes for your family to
+            build a life together in:
+          </h2>
           <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-10">
             <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan1} alt="" />
@@ -126,38 +125,16 @@ const Architectural = () => {
       <div className="pl-5 pt-20 pb-10 flex justify-between items-center w-full px-2 2xl:px-16">
         <h1>Home Improvement</h1>
       </div>
-      <div className="container px-10 pb-10">
-        <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
-          <p class="font-serif ">
-            Association CCRs ,Article VII. "No building, fence, wall or other
-            structure, landscaping or irrigation system, shall be commenced,
-            erected or maintained upon the properties, nor shall any exterior
-            addition to or change or alteration therein, including patio covers
-            and antennas, be made until the plans and specification showing the
-            nature, kind, shape, height, materials and location of the same
-            shall have been submitted to and approved in writing as to the
-            harmony of external design and location in relation to surrounding
-            structures and topography by the Board of Directors of the
-            Association or by an Architectural Committee comprised of three (3)
-            or more representatives appointed by the Board."
-          </p>
-          <p class="font-serif pt-5">
-            In order to maintain the architectural character and aesthetics of
-            Greentree, it is necessary that modifications of structures,
-            materials and colors be compatible with the dwelling and overall
-            architectural style of the immediate area.
-          </p>
-        </div>
-      </div>
 
       <div className="container px-10 pb-10">
         <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
           <div className="py-20 px-10">
-            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-20">
+            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-20 pb-20">
               <div className="transform h-64 w-80 object-scale-down transition duration-500 hover:scale-75 flex justify-center items-center">
                 <a href="https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf">
                   <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
                 </a>
+                <h2>Hellow</h2>
               </div>
               <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-75 hover:bg-blue-600 flex justify-center items-center">
                 <a href="https://coastalmngmtandconsulting.appfolio.com/connect/users/sign_in">
@@ -176,12 +153,52 @@ const Architectural = () => {
                 />
               </div>
             </div>
+            <div className="pt-20">
+              <span class="text-left text-base text-xl">
+                {" "}
+                Caring Enviroment
+              </span>
+              <span class="text-center text-base text-xl">
+                {" "}
+                Caring Enviroment
+              </span>
+              <span class="text-right text-base text-xl">
+                {" "}
+                Caring Enviroment
+              </span>
+            </div>
           </div>
-          <p class="font-serif pt-10">
+          <p class="font-serif pt-5 text-xl">
             Requests to make home amendments/improvements can be made by filling
             out the form above and submitting through the Homeowner portal.
             Click on the pdf and portal icons. Physical applications can also be
             mailed to: 4540 Campus Dr. Suite 100 Newport Beach,CA 92660
+          </p>
+        </div>
+      </div>
+      <div className="container px-10 pb-10">
+        <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+          <h2 className="text-4xl pb-5">
+            Covenants, Conditions & Restrictions (CC&Rs)
+          </h2>
+          <p class="font-serif text-lg">
+            Association CCRs ,Article VII. "No building, fence, wall or other
+            structure, landscaping or irrigation system, shall be commenced,
+            erected or maintained upon the properties, nor shall any exterior
+            addition to or change or alteration therein, including patio covers
+            and antennas, be made until the plans and specification showing the
+            nature, kind, shape, height, materials and location of the same
+            shall have been submitted to and approved in writing as to the
+            harmony of external design and location in relation to surrounding
+            structures and topography by the Board of Directors of the
+            Association or by an Architectural Committee comprised of three (3)
+            or more representatives appointed by the Board."
+          </p>
+          <p class="font-serif pt-5 text-lg">
+            In order to maintain the architectural character and aesthetics of
+            Greentree, it is necessary that modifications of structures,
+            materials and colors be compatible with the dwelling and overall
+            architectural style of the immediate area.
           </p>
         </div>
       </div>
