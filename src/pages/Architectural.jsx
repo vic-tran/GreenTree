@@ -12,13 +12,6 @@ import homeownericon from "../assets/HomeownerPortalIcon.png";
 import committee from "../assets/committeeicon.png";
 import application from "../assets/HomeImprovementApplication.pdf";
 
-function handleClick() {
-  window.open(
-    "https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf",
-    "_blank"
-  );
-}
-
 const Architectural = () => {
   return (
     <div className="contentBackground">
@@ -27,13 +20,13 @@ const Architectural = () => {
         <h1>Home Types</h1>
       </div>
 
-      <div className="container pl-20">
+      <div className="container pl-20 pb-5">
         <div class="pb-10 pl-5 bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
           <h2 className="text-3xl pb-10">
             Choose between our six intricately designed homes for your family to
             build a life together in:
           </h2>
-          <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-10">
+          <div class="grid gap-x-10 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-10">
             <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan1} alt="" />
             </div>
@@ -55,72 +48,74 @@ const Architectural = () => {
           </div>
         </div>
       </div>
-      <div className="pt-20 pb-10 flex justify-between items-center w-full px-2 2xl:px-16">
-        <h1>Home Dimensions</h1>
-      </div>
-      <div className="container pl-20 w-screen">
-        <table class="table-auto border-separate border-spacing-3 border border-black w-10/12 h-10/12 bg-amber-50 shadow-inner drop-shadow-xl text-center ...">
-          <thead>
-            <tr>
-              <th class="border-b-2 border-black font-serif ...">Model</th>
-              <th class="border-b-2 border-black font-serif ...">Beds</th>
-              <th class="border-b-2 border-black font-serif ...">Sq.Ft.</th>
-              <th class="border-b-2 border-black font-serif ...">MC</th>
-              <th class="border-b-2 border-black font-serif ...">Baths</th>
-              <th class="border-b-2 border-black font-serif ...">Garage</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="font-serif ...">Stafford (10x)</td>
-              <td class="font-serif ...">2</td>
-              <td class="font-serif ...">1173</td>
-              <td class="font-serif ...">A</td>
-              <td class="font-serif ...">1</td>
-              <td class="font-serif ...">2</td>
-            </tr>
-            <tr>
-              <td class="font-serif ...">Brentwood (21x)</td>
-              <td class="font-serif ...">3</td>
-              <td class="font-serif ...">1439</td>
-              <td class="font-serif ...">B</td>
-              <td class="font-serif ...">1.75</td>
-              <td class="font-serif ...">2</td>
-            </tr>
-            <tr>
-              <td class="font-serif ...">Cambridge (31)</td>
-              <td class="font-serif ...">3</td>
-              <td class="font-serif ...">1505</td>
-              <td class="font-serif ...">C</td>
-              <td class="font-serif ...">1.75</td>
-              <td class="font-serif ...">2</td>
-            </tr>
-            <tr>
-              <td class="font-serif ...">Brookfield (40x)</td>
-              <td class="font-serif ...">4</td>
-              <td class="font-serif ...">1737</td>
-              <td class="font-serif ...">D</td>
-              <td class="font-serif ...">2.5</td>
-              <td class="font-serif ...">2</td>
-            </tr>
-            <tr>
-              <td class="font-serif ...">Windsor (70)</td>
-              <td class="font-serif ...">4</td>
-              <td class="font-serif ...">1776</td>
-              <td class="font-serif ...">E</td>
-              <td class="font-serif ...">2</td>
-              <td class="font-serif ...">2</td>
-            </tr>
-            <tr>
-              <td class="font-serif ...">Hampton (51x)</td>
-              <td class="font-serif ...">5</td>
-              <td class="font-serif ...">2026</td>
-              <td class="font-serif ...">F</td>
-              <td class="font-serif ...">3</td>
-              <td class="font-serif ...">2</td>
-            </tr>
-          </tbody>
-        </table>
+      <div className="pb-10 pl-20 w-3/4 bg-pink-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+        <div className="pt-20 pb-10 flex justify-between items-center px-2 2xl:px-16">
+          <h1>Home Dimensions</h1>
+        </div>
+        <div className="container pl-20 w-screen">
+          <table class="table-auto border-separate border-spacing-3 border border-black w-10/12 h-10/12 bg-amber-50 shadow-inner drop-shadow-xl text-center ...">
+            <thead>
+              <tr>
+                <th class="border-b-2 border-black font-serif ...">Model</th>
+                <th class="border-b-2 border-black font-serif ...">Beds</th>
+                <th class="border-b-2 border-black font-serif ...">Sq.Ft.</th>
+                <th class="border-b-2 border-black font-serif ...">MC</th>
+                <th class="border-b-2 border-black font-serif ...">Baths</th>
+                <th class="border-b-2 border-black font-serif ...">Garage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-serif ...">Stafford (10x)</td>
+                <td class="font-serif ...">2</td>
+                <td class="font-serif ...">1173</td>
+                <td class="font-serif ...">A</td>
+                <td class="font-serif ...">1</td>
+                <td class="font-serif ...">2</td>
+              </tr>
+              <tr>
+                <td class="font-serif ...">Brentwood (21x)</td>
+                <td class="font-serif ...">3</td>
+                <td class="font-serif ...">1439</td>
+                <td class="font-serif ...">B</td>
+                <td class="font-serif ...">1.75</td>
+                <td class="font-serif ...">2</td>
+              </tr>
+              <tr>
+                <td class="font-serif ...">Cambridge (31)</td>
+                <td class="font-serif ...">3</td>
+                <td class="font-serif ...">1505</td>
+                <td class="font-serif ...">C</td>
+                <td class="font-serif ...">1.75</td>
+                <td class="font-serif ...">2</td>
+              </tr>
+              <tr>
+                <td class="font-serif ...">Brookfield (40x)</td>
+                <td class="font-serif ...">4</td>
+                <td class="font-serif ...">1737</td>
+                <td class="font-serif ...">D</td>
+                <td class="font-serif ...">2.5</td>
+                <td class="font-serif ...">2</td>
+              </tr>
+              <tr>
+                <td class="font-serif ...">Windsor (70)</td>
+                <td class="font-serif ...">4</td>
+                <td class="font-serif ...">1776</td>
+                <td class="font-serif ...">E</td>
+                <td class="font-serif ...">2</td>
+                <td class="font-serif ...">2</td>
+              </tr>
+              <tr>
+                <td class="font-serif ...">Hampton (51x)</td>
+                <td class="font-serif ...">5</td>
+                <td class="font-serif ...">2026</td>
+                <td class="font-serif ...">F</td>
+                <td class="font-serif ...">3</td>
+                <td class="font-serif ...">2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <div className="pl-5 pt-20 pb-10 flex justify-between items-center w-full px-2 2xl:px-16">
         <h1>Home Improvement</h1>
@@ -129,12 +124,18 @@ const Architectural = () => {
       <div className="container px-10 pb-10">
         <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
           <div className="py-20 px-10">
+            <div className="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pb-20">
+              <h2 className="text-4xl pb-5">Home Improvement Application</h2>
+              <h2 className="text-4xl pb-5">Homeowner Submission Portal</h2>
+              <h2 className="text-4xl pb-5">
+                Comittee Board Reviews Application
+              </h2>
+            </div>
             <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-20 pb-20">
               <div className="transform h-64 w-80 object-scale-down transition duration-500 hover:scale-75 flex justify-center items-center">
                 <a href="https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf">
                   <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
                 </a>
-                {/* <h2>Hellow</h2> */}
               </div>
               <div className="transform h-64 w-80 transition duration-500 hover:scale-75 flex justify-center items-center">
                 <a href="https://coastalmngmtandconsulting.appfolio.com/connect/users/sign_in">
