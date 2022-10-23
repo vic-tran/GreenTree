@@ -20,7 +20,7 @@ const Architectural = () => {
         <h1>Home Types</h1>
       </div>
 
-      <div className="container pl-20 pb-5">
+      <div className="container pl-10 pb-5">
         <div class="pb-10 pl-5 bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
           <h2 className="text-3xl pb-10">
             Choose between our six intricately designed homes for your family to
@@ -48,73 +48,75 @@ const Architectural = () => {
           </div>
         </div>
       </div>
-      <div className="pb-10 pl-20 w-3/4 bg-pink-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
-        <div className="pt-20 pb-10 flex justify-between items-center px-2 2xl:px-16">
-          <h1>Home Dimensions</h1>
-        </div>
-        <div className="container pl-20 w-screen">
-          <table class="table-auto border-separate border-spacing-3 border border-black w-10/12 h-10/12 bg-amber-50 shadow-inner drop-shadow-xl text-center ...">
-            <thead>
-              <tr>
-                <th class="border-b-2 border-black font-serif ...">Model</th>
-                <th class="border-b-2 border-black font-serif ...">Beds</th>
-                <th class="border-b-2 border-black font-serif ...">Sq.Ft.</th>
-                <th class="border-b-2 border-black font-serif ...">MC</th>
-                <th class="border-b-2 border-black font-serif ...">Baths</th>
-                <th class="border-b-2 border-black font-serif ...">Garage</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="font-serif ...">Stafford (10x)</td>
-                <td class="font-serif ...">2</td>
-                <td class="font-serif ...">1173</td>
-                <td class="font-serif ...">A</td>
-                <td class="font-serif ...">1</td>
-                <td class="font-serif ...">2</td>
-              </tr>
-              <tr>
-                <td class="font-serif ...">Brentwood (21x)</td>
-                <td class="font-serif ...">3</td>
-                <td class="font-serif ...">1439</td>
-                <td class="font-serif ...">B</td>
-                <td class="font-serif ...">1.75</td>
-                <td class="font-serif ...">2</td>
-              </tr>
-              <tr>
-                <td class="font-serif ...">Cambridge (31)</td>
-                <td class="font-serif ...">3</td>
-                <td class="font-serif ...">1505</td>
-                <td class="font-serif ...">C</td>
-                <td class="font-serif ...">1.75</td>
-                <td class="font-serif ...">2</td>
-              </tr>
-              <tr>
-                <td class="font-serif ...">Brookfield (40x)</td>
-                <td class="font-serif ...">4</td>
-                <td class="font-serif ...">1737</td>
-                <td class="font-serif ...">D</td>
-                <td class="font-serif ...">2.5</td>
-                <td class="font-serif ...">2</td>
-              </tr>
-              <tr>
-                <td class="font-serif ...">Windsor (70)</td>
-                <td class="font-serif ...">4</td>
-                <td class="font-serif ...">1776</td>
-                <td class="font-serif ...">E</td>
-                <td class="font-serif ...">2</td>
-                <td class="font-serif ...">2</td>
-              </tr>
-              <tr>
-                <td class="font-serif ...">Hampton (51x)</td>
-                <td class="font-serif ...">5</td>
-                <td class="font-serif ...">2026</td>
-                <td class="font-serif ...">F</td>
-                <td class="font-serif ...">3</td>
-                <td class="font-serif ...">2</td>
-              </tr>
-            </tbody>
-          </table>
+      <div className="container pl-10">
+        <div className="pb-10 pl-10 w-7/8 bg-pink-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+          <div className="text-4xl text-right font-sans pt-20 pb-10 flex justify-between items-center px-2 2xl:px-16">
+            <p>Dimensions of each type of home</p>
+          </div>
+          <div className="container pl-20 w-screen">
+            <table class="table-auto border-separate border-spacing-3 border border-black w-10/12 h-10/12 bg-amber-50 shadow-inner drop-shadow-xl text-center ...">
+              <thead>
+                <tr>
+                  <th class="border-b-2 border-black font-serif ...">Model</th>
+                  <th class="border-b-2 border-black font-serif ...">Beds</th>
+                  <th class="border-b-2 border-black font-serif ...">Sq.Ft.</th>
+                  <th class="border-b-2 border-black font-serif ...">MC</th>
+                  <th class="border-b-2 border-black font-serif ...">Baths</th>
+                  <th class="border-b-2 border-black font-serif ...">Garage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-serif ...">Stafford (10x)</td>
+                  <td class="font-serif ...">2</td>
+                  <td class="font-serif ...">1173</td>
+                  <td class="font-serif ...">A</td>
+                  <td class="font-serif ...">1</td>
+                  <td class="font-serif ...">2</td>
+                </tr>
+                <tr>
+                  <td class="font-serif ...">Brentwood (21x)</td>
+                  <td class="font-serif ...">3</td>
+                  <td class="font-serif ...">1439</td>
+                  <td class="font-serif ...">B</td>
+                  <td class="font-serif ...">1.75</td>
+                  <td class="font-serif ...">2</td>
+                </tr>
+                <tr>
+                  <td class="font-serif ...">Cambridge (31)</td>
+                  <td class="font-serif ...">3</td>
+                  <td class="font-serif ...">1505</td>
+                  <td class="font-serif ...">C</td>
+                  <td class="font-serif ...">1.75</td>
+                  <td class="font-serif ...">2</td>
+                </tr>
+                <tr>
+                  <td class="font-serif ...">Brookfield (40x)</td>
+                  <td class="font-serif ...">4</td>
+                  <td class="font-serif ...">1737</td>
+                  <td class="font-serif ...">D</td>
+                  <td class="font-serif ...">2.5</td>
+                  <td class="font-serif ...">2</td>
+                </tr>
+                <tr>
+                  <td class="font-serif ...">Windsor (70)</td>
+                  <td class="font-serif ...">4</td>
+                  <td class="font-serif ...">1776</td>
+                  <td class="font-serif ...">E</td>
+                  <td class="font-serif ...">2</td>
+                  <td class="font-serif ...">2</td>
+                </tr>
+                <tr>
+                  <td class="font-serif ...">Hampton (51x)</td>
+                  <td class="font-serif ...">5</td>
+                  <td class="font-serif ...">2026</td>
+                  <td class="font-serif ...">F</td>
+                  <td class="font-serif ...">3</td>
+                  <td class="font-serif ...">2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <div className="pl-5 pt-20 pb-10 flex justify-between items-center w-full px-2 2xl:px-16">
