@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="fixed w-full h-20 shadow-xl z-[100] text-current">
       <div className="flex justify-between items-center w-full px-2 2xl:px-16">
         <a href="/" className="cursor-pointer">
-          <img src={GT} alt="/" width="125" height="75" />
+          <img src={GT} alt="/" width="100" height="50" className="pt-1" />
         </a>
         <div>
           <ul className="flex justify-between items-center w-full px-5 2xl:px-16 ml-5 text-lg uppercase cursor-pointer">
