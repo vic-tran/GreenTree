@@ -22,39 +22,39 @@ const Architectural = () => {
 
       <div className="container pl-10 pb-5">
         <div class="pb-10 pl-5 bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
-          <h2 className="text-3xl pb-10">
+          <h2 className="text-3xl pb-10 font-sans font-semibold">
             Choose between our six intricately designed homes for your family to
             build a life together in:
           </h2>
           <div class="grid gap-x-10 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-10">
-            <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+            <div className="transform h-64 w-80 transition duration-500 hover:scale-125 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan1} alt="" />
             </div>
-            <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+            <div className="transform h-64 w-80 transition duration-500 hover:scale-125 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan2} alt="" />
             </div>
-            <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+            <div className="transform h-64 w-80 transition duration-500 hover:scale-125 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan3} alt="" />
             </div>
-            <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+            <div className="transform h-64 w-80 transition duration-500 hover:scale-125 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan4} alt="" />
             </div>
-            <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+            <div className="transform h-64 w-80 transition duration-500 hover:scale-125 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan5} alt="" />
             </div>
-            <div className="transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center">
+            <div className="transform h-64 w-80 transition duration-500 hover:scale-125 flex justify-center items-center">
               <img class=".object-cover h-78 w-96 ..." src={plan6} alt="" />
             </div>
           </div>
         </div>
       </div>
       <div className="container pl-10">
-        <div className="pb-10 pl-10 w-7/8 bg-pink-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
-          <div className="text-4xl text-right font-sans pt-20 pb-10 flex justify-between items-center px-2 2xl:px-16">
-            <p>Dimensions of each type of home</p>
+        <div className="pb-10 pl-10 w-7/8 bg-pink-100 text-center shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+          <div className="text-4xl  pt-20 pb-10 flex justify-between items-center px-2 2xl:px-16">
+            <h2 className="text-right  font-sans font-semibold">Dimensions of each type of home</h2>
           </div>
-          <div className="container pl-20 w-screen">
-            <table class="table-auto border-separate border-spacing-3 border border-black w-10/12 h-10/12 bg-amber-50 shadow-inner drop-shadow-xl text-center ...">
+          <div className="container ml-20 w-screen">
+            <table class="table-auto border-separate border-spacing-3 border border-black lg:w-10/12 w-auto h-auto bg-amber-50 shadow-inner drop-shadow-xl text-center ...">
               <thead>
                 <tr>
                   <th class="border-b-2 border-black font-serif ...">Model</th>
@@ -127,19 +127,19 @@ const Architectural = () => {
         <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
           <div className="py-20 px-10">
             <div className="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pb-20">
-              <h2 className="text-4xl pb-5">Home Improvement Application</h2>
-              <h2 className="text-4xl pb-5">Homeowner Submission Portal</h2>
-              <h2 className="text-4xl pb-5">
-                Comittee Board Reviews Application
+              <h2 className="sm:text-2xl md:text-2xl lg:text-4xl pb-">Step 1: Home Improvement Application</h2>
+              <h2 className="sm:text-2xl md:text-2xl lg:text-4xl pb-">Step 2: Homeowner Submission Portal</h2>
+              <h2 className="sm:text-2xl md:text-2xl lg:text-4xl pb-">
+                Step 3: Comittee Board Reviews Application
               </h2>
             </div>
-            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-20 pb-20">
-              <div className="transform h-64 w-80 object-scale-down transition duration-500 hover:scale-75 flex justify-center items-center">
+            <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 align-middle pl-20 ">
+              <div className="transform relative pr-32 h-64 w-80 object-scale-down transition duration-500 hover:scale-150 flex justify-center items-center">
                 <a href="https://www.greentreehomesirvine.org/_files/ugd/a594a1_c4e1b5f6654447f5aae4581265db337f.pdf">
-                  <img class=".object-cover h-78 w-96 ..." src={pdf} alt="" />
+                  <img class="object-center lg:h-78 lg:w-96 p-10 ..." src={pdf} alt="" />
                 </a>
               </div>
-              <div className="transform h-64 w-80 transition duration-500 hover:scale-75 flex justify-center items-center">
+              <div className="transform relative h-64 w-80 transition duration-500 hover:scale-150 flex pr-32 justify-center items-center p-5">
                 <a href="https://coastalmngmtandconsulting.appfolio.com/connect/users/sign_in">
                   <img
                     class="rounded-full .object-cover h-78 w-96 ..."
@@ -148,7 +148,7 @@ const Architectural = () => {
                   />
                 </a>
               </div>
-              <div className="transform h-64 bg-blue-400 w-80 flex justify-center items-center">
+              <div className="transform relative h-64 w-80 flex-auto pr-28 justify-center items-center">
                 <img
                   class=".object-cover h-78 w-96 ..."
                   src={committee}
@@ -157,27 +157,27 @@ const Architectural = () => {
               </div>
             </div>
           </div>
-          <p class="font-serif pt-5 text-xl">
+          <p class="font-serif pt-5 lg:text-xl md:text-lg mb-5">
             Requests to make home amendments/improvements can be made by filling
             out the form above and submitting through the Homeowner portal.
             Click on the{" "}
-            <span className="font-serif text-2xl font-extrabold text-red-500">
+            <span className="font-serif text-2xl md:text-xl font-extrabold text-red-500">
               PDF
             </span>{" "}
             and{" "}
-            <span className="font-serif text-2xl font-extrabold text-cyan-600">
+            <span className="font-serif text-2xl md:text-xl font-extrabold text-cyan-600">
               Homeowner Portal
             </span>{" "}
             icons to access the form and submission portal.
           </p>
-          <p className="font-serif pt-5 text-xl">
+          <p className="font-serif pt-5 lg:text-xl md:text-lg">
             Physical applications can also be mailed to: 4540 Campus Dr. Suite
             100 Newport Beach,CA 92660
           </p>
         </div>
       </div>
       <div className="container px-10 pb-10">
-        <div class="bg-slate-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
+        <div class="bg-pink-100 text-center pb-10 shadow-inner drop-shadow-2xl p-10 rounded-xl flex-auto">
           <h2 className="text-4xl pb-5">
             Covenants, Conditions & Restrictions (CC&Rs)
           </h2>
