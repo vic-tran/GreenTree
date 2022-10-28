@@ -10,10 +10,10 @@ const Amenities = () => {
   return (
     <div className="contentBackground">
       <Navbar />
-      <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16 pt-5 pb-5">
+      <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16 pt-5 pb-5 bg-amber-50">
         <h1>Amenities</h1>
       </div>
-      <div class="pb-10 pl-5">
+      <div class="pb-10 pl-5 bg-amber-50">
         <p class="font-sans">
           The areas within Greentree homes provide you with a variety of
           activities. Enjoy a paddle in our wonderful swimming pool. Go for a
@@ -21,7 +21,7 @@ const Amenities = () => {
           court within the park. The options are endless!
         </p>
       </div>
-      <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-8 ">
+      <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-8 bg-amber-50">
         <div className="saturate-150 pb-5 transform h-164  w-108 transition duration-500 hover:scale-125 flex justify-center items-center">
           <img class=".object-cover h-80 w-96 ..." src={pool} alt="pool" />
         </div>
@@ -35,7 +35,7 @@ const Amenities = () => {
       {/* <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16">
         <h1>Home Improvement</h1>
       </div> */}
-      <div class="pb-10 pl-5">
+      <div class="pb-10 pl-5 bg-amber-50">
         {/* <p>
           Association CCRs ,Article VII. "No building, fence, wall or other
           structure, landscaping or irrigation system, shall be commenced,

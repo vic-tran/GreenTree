@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
-    // <Navbar></Navbar>
     <div className="w-full h-screen">
       <Navbar />
       <video src={aboutBg} autoPlay loop muted />
