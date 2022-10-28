@@ -26,22 +26,22 @@ function Footer() {
             </div>
             <div className="flex-auto flex lg:pt-10 lg:pl-20 gap-x-20 items-start">
               <a
-                href="/About"
+                href="/"
                 class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase"
               >
-                About
+                Home
               </a>
               <a
-                href="/Support"
+                href="/Events"
                 class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase"
               >
-                Support
+                Events
               </a>
               <a
                 href="/Architectural"
                 class="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase"
               >
-                Homes
+                Architectural
               </a>
               <a
                 href="/Contact"
