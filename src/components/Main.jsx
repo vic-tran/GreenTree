@@ -24,6 +24,7 @@ export const main = () => {
         </div>
       </div>
       <Amenities />
+      <About />
     </div>
   );
 };

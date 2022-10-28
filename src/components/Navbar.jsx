@@ -16,14 +16,14 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/*<li>
               <Link
                 to="/about"
                 className="ml-10 text-lg uppercase hover:border-b"
               >
                 About
               </Link>
-            </li>
+              </li> */}
             {/* <li>
               <Link
                 to="/events"
