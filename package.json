@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "react-icons": "^4.6.0"
-=======
   "name": "greentreereact",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +40,5 @@
     "autoprefixer": "^10.4.11",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
->>>>>>> 40add4df3bbc9bfc624e48f863ef70f53170cc7e
   }
 }
