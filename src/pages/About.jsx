@@ -6,11 +6,10 @@ import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
-    // <Navbar></Navbar>
     <div className="w-full h-screen">
       <Navbar />
       <video src={aboutBg} autoPlay loop muted />
-      <div className="content">
+      <div className="contentAB">
         <div class="flex justify-right">
           <img src={logo} class="object-scale-down h-48 w-92"></img>
         </div>

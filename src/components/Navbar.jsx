@@ -16,22 +16,24 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/*<li>
               <Link
                 to="/about"
                 className="ml-10 text-lg uppercase hover:border-b"
               >
                 About
               </Link>
-            </li>
-            {/* <li>
+              </li> */}
+
+             <li>
               <Link
                 to="/events"
                 className="ml-10 text-lg uppercase hover:border-b"
               >
                 Events
               </Link>
-            </li> */}
+            </li> 
+
             <li>
               <Link
                 to="/architectural"
@@ -41,7 +43,8 @@ const Navbar = () => {
                 Architectural
               </Link>
             </li>
-            <li>
+
+            {/*<li>
               <Link
                 to="/amenities"
                 className="ml-10 text-lg uppercase hover:border-b"
@@ -50,9 +53,9 @@ const Navbar = () => {
                 Amenities
               </Link>
             </li>
-            {/* <li> 
-                            <Link to="/support" className='ml-10 text-lg uppercase hover:border-b'>Support</Link>
-                        </li> */}
+            {/*<li> 
+                <Link to="/support" className='ml-10 text-lg uppercase hover:border-b'>Support</Link>
+              </li> */}
             <li>
               <Link
                 to="/contact"
