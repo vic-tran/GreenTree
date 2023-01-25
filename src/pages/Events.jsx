@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Greenbelt from "../assets/Greenbelt.png";
 import photos from "../assets/photos.png";
+import calendar from "../assets/calendar.png";
 import { Link } from "react-router-dom";
 
 const Events = () => {
@@ -19,29 +20,48 @@ const Events = () => {
         />
       </div>
 
-        <div className='content'>
-          <h1 className='mt-0px pt-10'>Community Events</h1>
-          <section class="flex justify-center mt-5">
-            <div class="bg-gray-600 py-3 w-3/12 rounded text-center border-b-4 border-green-700 flex justify-center opacity-70 ...">
-              <p class="font-sans text-xl w-11/12 text-green-100">
+        <div className="contentevents">
+          <div>
+            <h1 className='mt-0px pt-10 flex justify-center'>Community Events</h1>
+              <section class="flex justify-center mt-5">
+              <div class="bg-gray-600 py-3 w-3/12 rounded text-center border-b-4 border-green-700 flex justify-center opacity-70 ...">
+                <p class="font-sans text-xl w-11/12 text-green-100">
                   Events at Greentree are what keep your community connected and lively. 
                   Join us at one of our events and get to know your neighbors!
-              </p>
-            </div>
-          </section>
+                </p>
+              </div>
+              </section>
+          </div>
+
           <div>
             <img
               className='saturate-150 pt-10 pb-5 transform h-80 w-96  
-                          flex flex-col items-baseline rounded-full cursor-pointer'
+                         flex justify-center items-baseline rounded-2xl cursor-pointer'
               src={photos}
               alt=""
               />
-            <text class='flex justify-center text-3xl cursor-pointer'>
+            <text className='flex justify-center text-2xl cursor-pointer'>
               Photos!
             </text>
           </div>
+
+          <div>
+            <a href="https://www.greentreehomesirvine.org/calendar">
+              <img
+                className='saturate-150 pt-10 pb-5 transform h-60 w-86 flex justify-center 
+                items-baseline cursor-pointer'
+                src ={calendar}
+                alt="calendar"
+                />
+                <text className='flex justify-center text-2xl cursor-pointer'>
+                    Upcoming Events!
+                </text>
+            </a>
+          </div>
+
         </div>
         
+
       <Footer />
     </div>
   );

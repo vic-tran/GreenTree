@@ -14,23 +14,33 @@ const Amenities = () => {
         <h1>Amenities</h1>
       </div>
       <div class="pb-10 pl-5 bg-amber-50">
-        <p class="font-sans">
-          The areas within Greentree homes provide you with a variety of
-          activities. Enjoy a paddle in our wonderful swimming pool. Go for a
-          stroll through the greenbelt. Improve your basketball game on our
-          court within the park. The options are endless!
-        </p>
+      <p class="font-sans">
+      The areas within Greentree homes provide you with a variety of
+      activities. Enjoy a paddle in our wonderful swimming pool. Go for a
+      stroll through the greenbelt. Improve your basketball game on our
+      court within the park. The options are endless!
+    </p>
+
       </div>
       <div class="grid gap-x-5 gap-y-10 md:grid-cols-1 lg:grid-cols-3 pl-8 bg-amber-50">
-        <div className="saturate-150 pb-5 transform h-164  w-108 transition duration-500 hover:scale-125 flex justify-center items-center">
+        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-110 flex flex-col justify-center items-center">
+          <text className='text-xl text-black'>Pool Area</text>
           <img class=".object-cover h-80 w-96 ..." src={pool} alt="pool" />
+          <p className='font-sans text-sm'>The pool has been an integral part of the community since it's genesis.</p>
         </div>
-        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-125 hover:bg-grey-800 flex justify-center items-center">
-          <img class=".object-cover h-80 w-96 ..." src={Greenbelt} alt="greenbelt" />
+
+        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-110 hover:bg-grey-800 flex flex-col justify-center items-center">
+          <text className='text-xl text-black'>Greenbelt</text>
+          <img class=".object-cover h-80 w-96  ..." src={Greenbelt} alt="greenbelt" />
+          <p className='font-sans text-sm'>The greenbelt encapsulates the vision of Irvine's city planners.</p>
         </div>
-        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-125 hover:bg-grey-800 flex justify-center items-center">
+
+        <div className="saturate-150 pb-5 transform h-164 w-108 transition duration-500 hover:scale-110 hover:bg-grey-800 flex flex-col justify-center items-center">
+          <text className='text-xl text-black'>Recreation</text>
           <img class=".object-cover h-80 w-96 ..." src={rec} alt="recreation" />
+          <p className='font-sans text-sm'>The park has various recreation focal points which liven up scenery-every day of the week!</p>
         </div>
+
       </div>
       {/* <div className="pl-5 flex justify-between items-center w-full px-2 2xl:px-16">
         <h1>Home Improvement</h1>
@@ -51,6 +61,14 @@ const Amenities = () => {
           character and aesthetics of Greentree, it is necessary that
           modifications of structures, materials and colors be compatible with
           the dwelling and overall architectural style of the immediate area.
+
+           <p class="font-sans">
+          The areas within Greentree homes provide you with a variety of
+          activities. Enjoy a paddle in our wonderful swimming pool. Go for a
+          stroll through the greenbelt. Improve your basketball game on our
+          court within the park. The options are endless!
+        </p>
+
         </p> */}
       </div>
       
