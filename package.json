@@ -41,9 +41,6 @@
     "autoprefixer": "^10.4.11",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
-<<<<<<< HEAD
-=======
 
->>>>>>> 9df77ea86f20ac8d9d802444de4fdc9b7e4355b9
   }
 }
